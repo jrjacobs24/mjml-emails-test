@@ -1,0 +1,101 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-all color="#4a4a4a" />
+      <mj-class
+        name="btn--default"
+        background-color="#fff"
+        border="1px solid #c8c8c8"
+        font-size="16px"
+        font-weight="500"
+        line-height="150%"
+        width="100%"
+      />
+      <mj-class
+        name="btn--primary"
+        background-color="#f68a33"
+        border="1px solid #c8c8c8"
+        color="#fff"
+        font-size="16px"
+        font-weight="500"
+        line-height="150%"
+        width="100%"
+      />
+      <mj-text font-size="16px" line-height="150%" font-family="-apple-system, BlinkMacSystemFont" />
+      <mj-section padding="5px 0" />
+      <mj-navbar-link text-transform="none" font-size="14px" padding="15px 0 10px 25px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .bt-card {
+        background-color: #fff;
+      }
+      .price {
+        color: green;
+        font-weight: 500;
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#eee">
+
+    <mj-include path="./mjml-partials/header.mjml" />
+
+    <mj-include path="./mjml-partials/agent-welcome.mjml" />
+
+    <mj-wrapper background-color="#fff" padding="0">
+      <mj-section padding="20px 0 0">
+        <mj-column width="100%">
+          <mj-text font-weight="bold" font-size="22px" align="center">
+            New Listings
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-include path="./mjml-partials/listing-1.mjml" />
+
+      <mj-section padding="15px 60px">
+        <mj-column width="100%">
+          <mj-image src="./imgs/new_listing_1.jpg" alt="1260 Oakcrest Drive" />
+          <mj-text padding="5px 25px">
+            <a href="#">
+              <div>1260 Oakcrest Drive</div>
+              <div>Charleston, SC 29412</div>
+            </a>
+          </mj-text>
+          <mj-text>
+            <span class="price">$374 k</span> |
+            <span> 3 bed</span> |
+            <span> 2 bath</span> |
+            <span> 1,770 sqft</span>
+          </mj-text>
+        </mj-column>
+        <mj-group width="100%">
+          <mj-column>
+            <mj-button mj-class="btn--default" padding="10px 5px 10px 25px">
+              Contact Agent
+            </mj-button>
+          </mj-column>
+          <mj-column>
+            <mj-button mj-class="btn--primary" padding="10px 25px 10px 5px">
+              Details
+            </mj-button>
+          </mj-column>
+        </mj-group>
+        <mj-group width="100%" vertical-align="middle">
+          <mj-column width="66.666%">
+            <mj-text font-size="14px">
+              Listing courtesy of the Festivus Group.
+            </mj-text>
+          </mj-column>
+          <mj-column width="33.333%">
+            <mj-image src="./imgs/idx-large.gif" alt="" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+
+</mjml>

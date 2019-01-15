@@ -1,0 +1,31 @@
+<mj-section background-color="#fff" border-bottom="4px solid #eee">
+
+  <mj-column width="40%" padding="15px 0">
+    <mj-text font-size="28px" color="#f68a33">
+      Listing e-Alert
+    </mj-text>
+    <mj-text>August 6th, 2018</mj-text>
+  </mj-column>
+
+  <mj-column width="60%">
+    <mj-image src="imgs/festivus.png" width="240px" />
+  </mj-column>
+
+  <mj-column width="100%">
+    <mj-navbar align="left" hamburger="hamburger">
+      <mj-navbar-link>
+        New Search
+      </mj-navbar-link>
+      <mj-navbar-link>
+        Map
+      </mj-navbar-link>
+      <mj-navbar-link>
+        Your Favorites (34)
+      </mj-navbar-link>
+      <mj-navbar-link>
+        Your Account
+      </mj-navbar-link>
+    </mj-navbar>
+  </mj-column>
+
+</mj-section>

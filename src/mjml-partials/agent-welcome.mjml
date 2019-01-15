@@ -1,0 +1,32 @@
+<mj-section background-color="#fff" padding="0" border-bottom="4px solid #eee">
+
+  <mj-column width="60%" padding="20px 0">
+    <mj-text font-size="18px" font-weight="bold" padding="0 20px">
+      Hi Truman,
+    </mj-text>
+    <mj-spacer height="20px" />
+    <mj-text padding="0 20px">
+      Check out the newest activity for Saved Search 8. Please feel free to contact me if you would like any additional information. Or, call my cell at 8435555555.
+    </mj-text>
+    <mj-spacer height="30px" />
+    <mj-text padding="0 20px">
+      Regards,
+    </mj-text>
+    <mj-text padding="0 20px">
+      George Constanza
+    </mj-text>
+  </mj-column>
+
+  <mj-column border-left="5px solid #eee" width="40%" padding="20px 0">
+    <mj-image src="./imgs/agent_photo.jpg" width="100px" align="left" padding="0 20px 20px" />
+    <mj-text padding="0 20px" font-weight="bold">George Costanza</mj-text>
+    <mj-text padding="0 20px">The Festivus Group</mj-text>
+    <mj-text padding="0 20px">Client Services</mj-text>
+    <mj-divider border-color="#c8c8c8" border-width="2px" padding="10px 15px" />
+    <mj-text padding="0 20px">
+      <strong>Office:</strong>
+      <a href="#">8435555555
+    </mj-text>
+  </mj-column>
+
+</mj-section>
